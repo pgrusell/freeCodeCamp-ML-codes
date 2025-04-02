@@ -39,7 +39,7 @@ print(f"Test MSE: {mse:.6f}")
 min_val = min(y_true.min(), y_pred.min())
 max_val = max(y_true.max(), y_pred.max())
 
-plt.figure(figsize=(8, 6))
+plt.figure(figsize=(8, 6), dpi=100)
 plt.plot(y_true, y_pred, 'o', alpha=0.5)
 plt.plot([min_val, max_val], [min_val, max_val], 'r--')
 plt.xlabel("Real value")
@@ -51,11 +51,11 @@ plt.show()
 # Error distribution (Gaussian)
 error = y_pred - y_true
 
-plt.figure(figsize=(8, 6))
+plt.figure(figsize=(8, 6), dpi=100)
 plt.hist(error, bins=np.linspace(error.min(), error.max(),
          20), color='blue', edgecolor='black', alpha=0.4, label=f'mean = {error.mean() : .3f}\nstd = {error.std() : .3f}')
 plt.title("Error distribution")
 plt.xlabel("Error")
-plt.ylabel("# events")
+plt.ylabel(r"$\#$ events")
 plt.legend()
 plt.show()
