@@ -1,2 +1,5 @@
 # MacOs files
 *.DS_Store
+
+# VSCode files
+__pycache__
