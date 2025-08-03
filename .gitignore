@@ -1,5 +1,3 @@
-# MacOs files
-*.DS_Store
-
-# VSCode files
-__pycache__
+**__pycache__*
+**/.DS_Store*
+**/belgium-ts

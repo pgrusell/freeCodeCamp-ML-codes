@@ -1,0 +1,8 @@
+[project]
+name = 'unpacker'
+version = '1.0.0'
+dependencies = ["numpy>=2.0.2", "pillow>=11.1.0"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
