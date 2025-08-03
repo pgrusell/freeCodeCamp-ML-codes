@@ -1,5 +1,0 @@
-Metadata-Version: 2.4
-Name: unpacker
-Version: 1.0.0
-Requires-Dist: numpy>=2.0.2
-Requires-Dist: pillow>=11.1.0

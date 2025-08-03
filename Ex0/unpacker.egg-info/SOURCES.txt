@@ -1,8 +1,0 @@
-pyproject.toml
-db/__init__.py
-db/unpacker.py
-unpacker.egg-info/PKG-INFO
-unpacker.egg-info/SOURCES.txt
-unpacker.egg-info/dependency_links.txt
-unpacker.egg-info/requires.txt
-unpacker.egg-info/top_level.txt
